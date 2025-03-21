@@ -1,0 +1,21 @@
+# Pliki i foldery, których nie chcemy w repozytorium
+
+# folder node_modules
+node_modules/
+
+# Pliki środowiskowe
+.env
+.env.local
+.env.*.local
+
+# Pliki logów
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# folder z danymi pokrycia testów
+coverage/
+
+# inne
+.DS_Store
